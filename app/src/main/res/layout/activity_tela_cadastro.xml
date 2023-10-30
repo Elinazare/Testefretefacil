@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tela_cadastro">
+
+    <ImageButton
+        android:id="@+id/iV_cadastroFretistaC"
+        android:layout_width="156dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV_cadastroClienteC"
+        app:srcCompat="@drawable/frame_5" />
+
+    <ImageView
+        android:id="@+id/iV_cadastroClienteC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tV_cadastre_seC"
+        app:srcCompat="@drawable/frame_4" />
+
+    <Button
+        android:id="@+id/b_cadastrarLC"
+        android:layout_width="343dp"
+        android:layout_height="52dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/button_black"
+        android:fontFamily="@font/roboto_black"
+        android:text="Cadastrar"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iV_cadastroFretistaC"
+        app:layout_constraintVertical_bias="0.721" />
+
+    <TextView
+        android:id="@+id/tV_clienteCC"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/coda"
+        android:text="Cliente"
+        android:textColor="#1D1D1C"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toEndOf="@+id/iV_cadastroClienteC"
+        app:layout_constraintTop_toTopOf="@+id/iV_cadastroClienteC" />
+
+    <TextView
+        android:id="@+id/tV_fretistaCF"
+        android:layout_width="78dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="144dp"
+        android:fontFamily="@font/coda"
+        android:text="Fretista"
+        android:textColor="#1D1D1C"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iV_cadastroFretistaC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.027"
+        app:layout_constraintStart_toEndOf="@+id/iV_cadastroFretistaC"
+        app:layout_constraintTop_toBottomOf="@+id/tV_clienteCC"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <TextView
+        android:id="@+id/tV_cadastre_seC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/comfortaa"
+        android:text="Cadastre-se"
+        android:textColor="#1D1D1C"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgB_voltarC" />
+
+    <ImageButton
+        android:id="@+id/imgB_voltarC"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/voltar_1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
